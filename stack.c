@@ -27,7 +27,7 @@ int push(stack *s, int Data)    //入栈
 	return 0;
 }
 
-void pop(stack *s)    //出栈
+int pop(stack *s)    //出栈
 {
 	if(stack_empty(*s) == 0){
 		return -1;
